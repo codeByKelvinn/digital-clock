@@ -1,0 +1,56 @@
+<!-- I use this notetaking technique forfor memorization -->
+
+<!DOCTYPE html>
+<!-- This is how we delcare the document type -->
+
+ <!-- tell the browser what verison of html we are using. Currently using HTML5 -->
+<html lang="en">
+    <!--this HTML tag tells the browser everything between the html opening and closing angular brackets will be in HTML code -->
+   
+<head>
+    <!-- charset means character set -->
+    <meta charset="UTF-8">
+    <!--meta dada = associated data -->
+    <!--UTF 8 is the standard in codinng if using HTML5... this incluses all international symbols, avoids MOJIBAKE(spellcheck LOL) -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- IE = INERNET EXPLORER -->
+    <!-- the X-UA-COMPATIBLE tag allows web authors to choose what version of INTERNET explorer the page should be rendered as -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- width=device-width sets the webpages width to the width of the device screen. initial-scale=1.0 sets the initial zoom level of the webpage when it's loaded. Without this meta tag you would notice everything on a mobile would be very small and squeezed to fit the content to look the same as it does on a monitor -->
+
+    <!-- the meta tags tell the browser how it should render or diaplay the page and also give information to search engines about contents of the website -->
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    
+</head>
+<body>
+    <h2>Digital Clock</h2>
+    <div class="clock">
+        <div>
+            <span id="hour">00</span>
+            <span class="text">Hours</span>
+        </div>
+        <div>
+            <span id="minutes">00</span>
+            <span class="text">Minutes</span>
+        </div>
+        <div>
+            <span id="seconds">00</span>
+            <span class="text">Seconds</span>
+        </div>
+        <div>
+            <span id="ampm">AM</span>
+        
+        </div>
+
+
+    </div>
+    
+    <script src="index.js">
+       
+    </script>
+
+</body>
+</html>
